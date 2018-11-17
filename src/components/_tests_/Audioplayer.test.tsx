@@ -30,6 +30,7 @@ describe('<Audioplayer', () => {
       update: jest.fn(),
       setRepeat: jest.fn(),
       duration: 1000,
+      currentTime: 0,
       fetchAudio: jest.fn(() => Promise.resolve({})),
       shouldScroll: false,
       toggleScroll: jest.fn(),
