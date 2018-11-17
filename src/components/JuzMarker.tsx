@@ -13,7 +13,7 @@ const StyledAyah = styled.div`
 
 const propTypes = {
   verse: VerseShape.isRequired,
-  text: PropTypes.instanceOf(Array).isRequired,
+  text: PropTypes.string.isRequired,
 };
 
 type Props = {
