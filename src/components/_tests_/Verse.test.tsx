@@ -14,6 +14,7 @@ const props = {
   play: jest.fn(),
   pause: jest.fn(),
   setCurrentVerseKey: jest.fn(),
+  fetchFootNote: jest.fn(),
   isPdf: false,
 };
 
